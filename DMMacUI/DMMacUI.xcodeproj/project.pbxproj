@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B812E13D3FC9A770A4F961 /* libPods-DMMacUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CA72B4F9F4A623B92D7FA9 /* libPods-DMMacUI.a */; };
+		6BF18DBE20CE0EB700CFDCA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */; };
+		6BF18DC120CE0EB700CFDCA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DC020CE0EB700CFDCA0 /* ViewController.m */; };
+		6BF18DC320CE0EB900CFDCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */; };
+		6BF18DC620CE0EB900CFDCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF18DC420CE0EB900CFDCA0 /* Main.storyboard */; };
+		6BF18DC920CE0EB900CFDCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DC820CE0EB900CFDCA0 /* main.m */; };
+		6BF18DD220CE0FBD00CFDCA0 /* DMLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DD120CE0FBD00CFDCA0 /* DMLoginInputView.m */; };
+		6BF18DDE20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DDD20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.m */; };
+		6BF18DE120CE2C3500CFDCA0 /* DMVerticalCenterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DE020CE2C3500CFDCA0 /* DMVerticalCenterTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41CA72B4F9F4A623B92D7FA9 /* libPods-DMMacUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMacUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF18DB920CE0EB700CFDCA0 /* DMMacUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMacUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF18DBC20CE0EB700CFDCA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BF18DBF20CE0EB700CFDCA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BF18DC020CE0EB700CFDCA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF18DC520CE0EB900CFDCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BF18DC720CE0EB900CFDCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF18DC820CE0EB900CFDCA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF18DCA20CE0EB900CFDCA0 /* DMMacUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DMMacUI.entitlements; sourceTree = "<group>"; };
+		6BF18DD020CE0FBD00CFDCA0 /* DMLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLoginInputView.h; sourceTree = "<group>"; };
+		6BF18DD120CE0FBD00CFDCA0 /* DMLoginInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLoginInputView.m; sourceTree = "<group>"; };
+		6BF18DDC20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMTVerticalCenterTextFieldCell.h; sourceTree = "<group>"; };
+		6BF18DDD20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMTVerticalCenterTextFieldCell.m; sourceTree = "<group>"; };
+		6BF18DDF20CE2C3500CFDCA0 /* DMVerticalCenterTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMVerticalCenterTextField.h; sourceTree = "<group>"; };
+		6BF18DE020CE2C3500CFDCA0 /* DMVerticalCenterTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMVerticalCenterTextField.m; sourceTree = "<group>"; };
+		88B540851C91DB8DC970E8E2 /* Pods-DMMacUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacUI/Pods-DMMacUI.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A4A387AC2D8888736F5D8D /* Pods-DMMacUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacUI/Pods-DMMacUI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF18DB620CE0EB700CFDCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B812E13D3FC9A770A4F961 /* libPods-DMMacUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02365D02A83FCDA06B81FFFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88B540851C91DB8DC970E8E2 /* Pods-DMMacUI.debug.xcconfig */,
+				C5A4A387AC2D8888736F5D8D /* Pods-DMMacUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20EC17752FCDD511EC084441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CA72B4F9F4A623B92D7FA9 /* libPods-DMMacUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF18DB020CE0EB700CFDCA0 = {
+			isa = PBXGroup;
+			children = (
+				6BF18DBB20CE0EB700CFDCA0 /* DMMacUI */,
+				6BF18DBA20CE0EB700CFDCA0 /* Products */,
+				02365D02A83FCDA06B81FFFE /* Pods */,
+				20EC17752FCDD511EC084441 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF18DBA20CE0EB700CFDCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF18DB920CE0EB700CFDCA0 /* DMMacUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF18DBB20CE0EB700CFDCA0 /* DMMacUI */ = {
+			isa = PBXGroup;
+			children = (
+				6BF18DBC20CE0EB700CFDCA0 /* AppDelegate.h */,
+				6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */,
+				6BF18DBF20CE0EB700CFDCA0 /* ViewController.h */,
+				6BF18DC020CE0EB700CFDCA0 /* ViewController.m */,
+				6BF18DD020CE0FBD00CFDCA0 /* DMLoginInputView.h */,
+				6BF18DD120CE0FBD00CFDCA0 /* DMLoginInputView.m */,
+				6BF18DDF20CE2C3500CFDCA0 /* DMVerticalCenterTextField.h */,
+				6BF18DE020CE2C3500CFDCA0 /* DMVerticalCenterTextField.m */,
+				6BF18DDC20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.h */,
+				6BF18DDD20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.m */,
+				6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */,
+				6BF18DC420CE0EB900CFDCA0 /* Main.storyboard */,
+				6BF18DC720CE0EB900CFDCA0 /* Info.plist */,
+				6BF18DC820CE0EB900CFDCA0 /* main.m */,
+				6BF18DCA20CE0EB900CFDCA0 /* DMMacUI.entitlements */,
+			);
+			path = DMMacUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF18DB820CE0EB700CFDCA0 /* DMMacUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF18DCD20CE0EB900CFDCA0 /* Build configuration list for PBXNativeTarget "DMMacUI" */;
+			buildPhases = (
+				5AB09D9B9E0954B7F06CFD28 /* [CP] Check Pods Manifest.lock */,
+				6BF18DB520CE0EB700CFDCA0 /* Sources */,
+				6BF18DB620CE0EB700CFDCA0 /* Frameworks */,
+				6BF18DB720CE0EB700CFDCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMMacUI;
+			productName = DMMacUI;
+			productReference = 6BF18DB920CE0EB700CFDCA0 /* DMMacUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF18DB120CE0EB700CFDCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lbq;
+				TargetAttributes = {
+					6BF18DB820CE0EB700CFDCA0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BF18DB420CE0EB700CFDCA0 /* Build configuration list for PBXProject "DMMacUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF18DB020CE0EB700CFDCA0;
+			productRefGroup = 6BF18DBA20CE0EB700CFDCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF18DB820CE0EB700CFDCA0 /* DMMacUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF18DB720CE0EB700CFDCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF18DC320CE0EB900CFDCA0 /* Assets.xcassets in Resources */,
+				6BF18DC620CE0EB900CFDCA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB09D9B9E0954B7F06CFD28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMMacUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF18DB520CE0EB700CFDCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF18DDE20CE2BDF00CFDCA0 /* DMTVerticalCenterTextFieldCell.m in Sources */,
+				6BF18DC120CE0EB700CFDCA0 /* ViewController.m in Sources */,
+				6BF18DC920CE0EB900CFDCA0 /* main.m in Sources */,
+				6BF18DD220CE0FBD00CFDCA0 /* DMLoginInputView.m in Sources */,
+				6BF18DBE20CE0EB700CFDCA0 /* AppDelegate.m in Sources */,
+				6BF18DE120CE2C3500CFDCA0 /* DMVerticalCenterTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BF18DC420CE0EB900CFDCA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF18DC520CE0EB900CFDCA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF18DCB20CE0EB900CFDCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BF18DCC20CE0EB900CFDCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BF18DCE20CE0EB900CFDCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B540851C91DB8DC970E8E2 /* Pods-DMMacUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DMMacUI/DMMacUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DMMacUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.DMMacUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BF18DCF20CE0EB900CFDCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A4A387AC2D8888736F5D8D /* Pods-DMMacUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DMMacUI/DMMacUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DMMacUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.DMMacUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF18DB420CE0EB700CFDCA0 /* Build configuration list for PBXProject "DMMacUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF18DCB20CE0EB900CFDCA0 /* Debug */,
+				6BF18DCC20CE0EB900CFDCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF18DCD20CE0EB900CFDCA0 /* Build configuration list for PBXNativeTarget "DMMacUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF18DCE20CE0EB900CFDCA0 /* Debug */,
+				6BF18DCF20CE0EB900CFDCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF18DB120CE0EB700CFDCA0 /* Project object */;
+}
