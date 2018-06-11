@@ -1,19 +1,16 @@
 //
-//  DMTVerticalCenterTextFieldCell.m
+//  DMVerticalCenterTextFieldCell.m
 //  DMMacUI
 //
 //  Created by lbq on 2018/6/11.
 //  Copyright © 2018年 lbq. All rights reserved.
 //
 
-#import "DMTVerticalCenterTextFieldCell.h"
-@interface DMTVerticalCenterTextFieldCell()
+#import "DMVerticalCenterTextFieldCell.h"
 
-@end
-@implementation DMTVerticalCenterTextFieldCell
+@implementation DMVerticalCenterTextFieldCell
 
 - (NSRect) titleRectForBounds:(NSRect)frame {
-    
     CGFloat stringHeight = self.attributedStringValue.size.height;
     NSRect titleRect = [super titleRectForBounds:frame];
     CGFloat oldOriginY = frame.origin.y;

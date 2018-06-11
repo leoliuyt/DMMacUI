@@ -7,15 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "DMVerticalCenterTextField.h"
+
+
 typedef NS_ENUM(NSUInteger, EDMInputViewType) {
     EDMInputViewTypeText,//文本框
     EDMInputViewTypeNumberAndText,//区号选择+文本框
+    EDMInputViewTypeSecureText,//密码
 };
 @interface DMLoginInputView : NSView
 
 - (instancetype)initWithType:(EDMInputViewType)aType;
-@property (nonatomic, strong) DMVerticalCenterTextField *textField;
+@property (nonatomic, strong) NSTextField *textField;
 @property (nonatomic, assign) BOOL highlighted;
 
 @end

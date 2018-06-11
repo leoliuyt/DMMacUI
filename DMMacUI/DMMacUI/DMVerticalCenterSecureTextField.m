@@ -1,18 +1,19 @@
 //
-//  DMVerticalCenterTextField.m
+//  DMVerticalCenterSecureTextField.m
 //  DMMacUI
 //
 //  Created by lbq on 2018/6/11.
 //  Copyright © 2018年 lbq. All rights reserved.
 //
 
-#import "DMVerticalCenterTextField.h"
-#import "DMVerticalCenterTextFieldCell.h"
-@implementation DMVerticalCenterTextField
+#import "DMVerticalCenterSecureTextField.h"
+#import "DMVerticalCenterSecureTextFieldCell.h"
+
+@implementation DMVerticalCenterSecureTextField
 
 + (Class)cellClass {
     //为了垂直居中
-    return [DMVerticalCenterTextFieldCell class];
+    return [DMVerticalCenterSecureTextFieldCell class];
 }
 
 - (void)drawRect:(NSRect)dirtyRect {

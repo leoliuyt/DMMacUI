@@ -1,5 +1,5 @@
 //
-//  DMTVerticalCenterTextFieldCell.h
+//  DMVerticalCenterSecureTextField.h
 //  DMMacUI
 //
 //  Created by lbq on 2018/6/11.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface DMTVerticalCenterTextFieldCell : NSTextFieldCell
+@interface DMVerticalCenterSecureTextField : NSSecureTextField
 
 @end

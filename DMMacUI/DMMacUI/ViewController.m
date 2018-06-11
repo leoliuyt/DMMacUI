@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSTextField *textField;
 @property (nonatomic, strong) DMLoginInputView *inputView;
 @property (nonatomic, strong) DMLoginInputView *checkCode;
+@property (nonatomic, strong) DMLoginInputView *password;
 
 @end
 @implementation ViewController
@@ -49,6 +50,13 @@
         make.centerY.equalTo(self.view).offset(60.);
     }];
     
+    [self.password mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.equalTo(@310.);
+        make.height.equalTo(@44.);
+        make.centerX.equalTo(self.view);
+        make.centerY.equalTo(self.view).offset(-60.);
+    }];
+    
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        self.inputView.highlighted = YES;
 //    });
@@ -70,5 +78,14 @@
         [self.view addSubview:_checkCode];
     }
     return _checkCode;
+}
+
+- (DMLoginInputView *)password
+{
+    if(!_password){
+        _password = [[DMLoginInputView alloc] initWithType:EDMInputViewTypeSecureText];
+        [self.view addSubview:_password];
+    }
+    return _password;
 }
 @end

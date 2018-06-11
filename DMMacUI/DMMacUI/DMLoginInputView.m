@@ -8,6 +8,8 @@
 
 #import "DMLoginInputView.h"
 #import <Masonry/Masonry.h>
+#import "DMVerticalCenterTextField.h"
+#import "DMVerticalCenterSecureTextField.h"
 @interface DMLoginInputView()
 @property (nonatomic, assign) EDMInputViewType type;
 @property (nonatomic, strong) NSButton *mobileBtn;
@@ -27,12 +29,6 @@
     [self makeUI];
     return self;
 }
-//- (instancetype)initWithFrame:(NSRect)frameRect
-//{
-//    self = [super initWithFrame:frameRect];
-//
-//    return self;
-//}
 
 - (void)makeUI
 {
@@ -42,19 +38,19 @@
     self.layer.cornerRadius = 4;
     self.highlighted = NO;
     
-    if (self.type == EDMInputViewTypeText) {
-        [self.textField mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.bottom.equalTo(self);
-            make.left.equalTo(self).offset(5.);
-            make.right.equalTo(self).offset(-5.);
-        }];
-    } else {
+    if (self.type == EDMInputViewTypeNumberAndText) {
         [self.mobileBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.top.bottom.equalTo(self);
         }];
         [self.textField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.bottom.equalTo(self);
             make.left.equalTo(self.mobileBtn.mas_right).offset(5.);
+            make.right.equalTo(self).offset(-5.);
+        }];
+    } else {
+        [self.textField mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.bottom.equalTo(self);
+            make.left.equalTo(self).offset(5.);
             make.right.equalTo(self).offset(-5.);
         }];
     }
@@ -67,13 +63,21 @@
     self.layer.borderColor = _highlighted ? [NSColor redColor].CGColor : [NSColor whiteColor].CGColor;
 }
 
-- (DMVerticalCenterTextField *)textField
+- (NSTextField *)textField
 {
     if(!_textField){
-        _textField = [[DMVerticalCenterTextField alloc] initWithFrame:CGRectZero];
+        if (self.type == EDMInputViewTypeSecureText) {
+            _textField = [[DMVerticalCenterSecureTextField alloc] initWithFrame:CGRectZero];
+            _textField.placeholderString = @"请输入密码";
+        } else {
+            _textField = [[DMVerticalCenterTextField alloc] initWithFrame:CGRectZero];
+            _textField.placeholderString = @"请输入手机号";
+        }
+//        _textField = [[DMVerticalCenterTextField alloc] initWithFrame:CGRectZero];
+//        _textField.placeholderString = @"请输入手机号";
         _textField.drawsBackground = NO;
         _textField.bordered = NO;
-        _textField.placeholderString = @"请输入手机号";
+        
         [self addSubview:_textField];
     }
     return _textField;
