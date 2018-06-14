@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		20B812E13D3FC9A770A4F961 /* libPods-DMMacUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CA72B4F9F4A623B92D7FA9 /* libPods-DMMacUI.a */; };
+		6B19A19220D232440029EC4C /* BorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A18D20D232430029EC4C /* BorderlessWindow.m */; };
+		6B19A19320D232440029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A18F20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m */; };
+		6B19A19420D232440029EC4C /* RoundWindowFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A19120D232430029EC4C /* RoundWindowFrameView.m */; };
+		6B19A19820D234D20029EC4C /* DMNewPopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A19620D234D20029EC4C /* DMNewPopWindowController.m */; };
+		6B19A19920D234D20029EC4C /* DMNewPopWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B19A19720D234D20029EC4C /* DMNewPopWindowController.xib */; };
+		6B19A1A120D249DE0029EC4C /* DMSubPopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A19F20D249DE0029EC4C /* DMSubPopWindowController.m */; };
+		6B19A1A220D249DE0029EC4C /* DMSubPopWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B19A1A020D249DE0029EC4C /* DMSubPopWindowController.xib */; };
+		6B19A1A520D24AA50029EC4C /* DMPopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B19A1A420D24AA50029EC4C /* DMPopWindowController.m */; };
+		6B9EE59F20D105F40070D7C3 /* DMComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EE59E20D105F40070D7C3 /* DMComboBox.m */; };
 		6BF18DBE20CE0EB700CFDCA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */; };
 		6BF18DC120CE0EB700CFDCA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DC020CE0EB700CFDCA0 /* ViewController.m */; };
 		6BF18DC320CE0EB900CFDCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */; };
@@ -22,6 +31,22 @@
 
 /* Begin PBXFileReference section */
 		41CA72B4F9F4A623B92D7FA9 /* libPods-DMMacUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMacUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B19A18C20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+PXRoundedRectangleAdditions.h"; sourceTree = "<group>"; };
+		6B19A18D20D232430029EC4C /* BorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
+		6B19A18E20D232430029EC4C /* BorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
+		6B19A18F20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+PXRoundedRectangleAdditions.m"; sourceTree = "<group>"; };
+		6B19A19020D232430029EC4C /* RoundWindowFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundWindowFrameView.h; sourceTree = "<group>"; };
+		6B19A19120D232430029EC4C /* RoundWindowFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundWindowFrameView.m; sourceTree = "<group>"; };
+		6B19A19520D234D20029EC4C /* DMNewPopWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNewPopWindowController.h; sourceTree = "<group>"; };
+		6B19A19620D234D20029EC4C /* DMNewPopWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNewPopWindowController.m; sourceTree = "<group>"; };
+		6B19A19720D234D20029EC4C /* DMNewPopWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMNewPopWindowController.xib; sourceTree = "<group>"; };
+		6B19A19E20D249DE0029EC4C /* DMSubPopWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSubPopWindowController.h; sourceTree = "<group>"; };
+		6B19A19F20D249DE0029EC4C /* DMSubPopWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSubPopWindowController.m; sourceTree = "<group>"; };
+		6B19A1A020D249DE0029EC4C /* DMSubPopWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMSubPopWindowController.xib; sourceTree = "<group>"; };
+		6B19A1A320D24AA50029EC4C /* DMPopWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMPopWindowController.h; sourceTree = "<group>"; };
+		6B19A1A420D24AA50029EC4C /* DMPopWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMPopWindowController.m; sourceTree = "<group>"; };
+		6B9EE59D20D105F40070D7C3 /* DMComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMComboBox.h; sourceTree = "<group>"; };
+		6B9EE59E20D105F40070D7C3 /* DMComboBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMComboBox.m; sourceTree = "<group>"; };
 		6BF18DB920CE0EB700CFDCA0 /* DMMacUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMacUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF18DBC20CE0EB700CFDCA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +125,8 @@
 				6BF18DBD20CE0EB700CFDCA0 /* AppDelegate.m */,
 				6BF18DBF20CE0EB700CFDCA0 /* ViewController.h */,
 				6BF18DC020CE0EB700CFDCA0 /* ViewController.m */,
+				6B9EE59D20D105F40070D7C3 /* DMComboBox.h */,
+				6B9EE59E20D105F40070D7C3 /* DMComboBox.m */,
 				6BF18DD020CE0FBD00CFDCA0 /* DMLoginInputView.h */,
 				6BF18DD120CE0FBD00CFDCA0 /* DMLoginInputView.m */,
 				6BF18DDF20CE2C3500CFDCA0 /* DMVerticalCenterTextField.h */,
@@ -110,6 +137,20 @@
 				6BF18DEE20CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m */,
 				6BF18DEB20CE66B800CFDCA0 /* DMVerticalCenterSecureTextFieldCell.h */,
 				6BF18DEC20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m */,
+				6B19A19520D234D20029EC4C /* DMNewPopWindowController.h */,
+				6B19A1A320D24AA50029EC4C /* DMPopWindowController.h */,
+				6B19A1A420D24AA50029EC4C /* DMPopWindowController.m */,
+				6B19A19620D234D20029EC4C /* DMNewPopWindowController.m */,
+				6B19A19720D234D20029EC4C /* DMNewPopWindowController.xib */,
+				6B19A19E20D249DE0029EC4C /* DMSubPopWindowController.h */,
+				6B19A19F20D249DE0029EC4C /* DMSubPopWindowController.m */,
+				6B19A1A020D249DE0029EC4C /* DMSubPopWindowController.xib */,
+				6B19A18E20D232430029EC4C /* BorderlessWindow.h */,
+				6B19A18D20D232430029EC4C /* BorderlessWindow.m */,
+				6B19A18C20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.h */,
+				6B19A18F20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m */,
+				6B19A19020D232430029EC4C /* RoundWindowFrameView.h */,
+				6B19A19120D232430029EC4C /* RoundWindowFrameView.m */,
 				6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */,
 				6BF18DC420CE0EB900CFDCA0 /* Main.storyboard */,
 				6BF18DC720CE0EB900CFDCA0 /* Info.plist */,
@@ -178,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF18DC320CE0EB900CFDCA0 /* Assets.xcassets in Resources */,
+				6B19A19920D234D20029EC4C /* DMNewPopWindowController.xib in Resources */,
 				6BF18DC620CE0EB900CFDCA0 /* Main.storyboard in Resources */,
+				6B19A1A220D249DE0029EC4C /* DMSubPopWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +253,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B19A19820D234D20029EC4C /* DMNewPopWindowController.m in Sources */,
+				6B19A19420D232440029EC4C /* RoundWindowFrameView.m in Sources */,
 				6BF18DF020CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m in Sources */,
 				6BF18DC120CE0EB700CFDCA0 /* ViewController.m in Sources */,
 				6BF18DC920CE0EB900CFDCA0 /* main.m in Sources */,
+				6B19A1A120D249DE0029EC4C /* DMSubPopWindowController.m in Sources */,
+				6B19A19320D232440029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */,
 				6BF18DD220CE0FBD00CFDCA0 /* DMLoginInputView.m in Sources */,
 				6BF18DBE20CE0EB700CFDCA0 /* AppDelegate.m in Sources */,
+				6B9EE59F20D105F40070D7C3 /* DMComboBox.m in Sources */,
+				6B19A1A520D24AA50029EC4C /* DMPopWindowController.m in Sources */,
 				6BF18DEF20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m in Sources */,
 				6BF18DE120CE2C3500CFDCA0 /* DMVerticalCenterTextField.m in Sources */,
 				6BF18DE720CE602F00CFDCA0 /* DMVerticalCenterTextFieldCell.m in Sources */,
+				6B19A19220D232440029EC4C /* BorderlessWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

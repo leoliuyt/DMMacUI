@@ -24,4 +24,11 @@
 }
 
 
+- (NSWindow *)window
+{
+    NSStoryboard *sb = [NSStoryboard mainStoryboard];
+    NSWindowController *windowController = [sb instantiateInitialController];
+    return windowController.window;
+}
+
 @end
