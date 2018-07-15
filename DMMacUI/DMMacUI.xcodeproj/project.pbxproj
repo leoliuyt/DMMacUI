@@ -27,6 +27,12 @@
 		6BF18DE720CE602F00CFDCA0 /* DMVerticalCenterTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DE620CE602F00CFDCA0 /* DMVerticalCenterTextFieldCell.m */; };
 		6BF18DEF20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DEC20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m */; };
 		6BF18DF020CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DEE20CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m */; };
+		6BF3E60F20D8F546003701F8 /* NSButton+DM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E60E20D8F546003701F8 /* NSButton+DM.m */; };
+		6BF3E61520D906F2003701F8 /* NSMutableAttributedString+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E61220D906F2003701F8 /* NSMutableAttributedString+LL.m */; };
+		6BF3E61620D906F2003701F8 /* NSMutableDictionary+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E61320D906F2003701F8 /* NSMutableDictionary+LL.m */; };
+		6BF3E61920D9118D003701F8 /* ArtButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E61820D9118D003701F8 /* ArtButtonCell.m */; };
+		6BF3E61E20D91576003701F8 /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E61A20D91575003701F8 /* UIButton.m */; };
+		6BF3E61F20D91576003701F8 /* ArtButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E61C20D91575003701F8 /* ArtButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,19 @@
 		6BF18DEC20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVerticalCenterSecureTextFieldCell.m; sourceTree = "<group>"; };
 		6BF18DED20CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMVerticalCenterSecureTextField.h; sourceTree = "<group>"; };
 		6BF18DEE20CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMVerticalCenterSecureTextField.m; sourceTree = "<group>"; };
+		6BF3E60D20D8F546003701F8 /* NSButton+DM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSButton+DM.h"; sourceTree = "<group>"; };
+		6BF3E60E20D8F546003701F8 /* NSButton+DM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSButton+DM.m"; sourceTree = "<group>"; };
+		6BF3E61020D8FA6E003701F8 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		6BF3E61120D906F2003701F8 /* NSMutableAttributedString+LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LL.h"; sourceTree = "<group>"; };
+		6BF3E61220D906F2003701F8 /* NSMutableAttributedString+LL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LL.m"; sourceTree = "<group>"; };
+		6BF3E61320D906F2003701F8 /* NSMutableDictionary+LL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LL.m"; sourceTree = "<group>"; };
+		6BF3E61420D906F2003701F8 /* NSMutableDictionary+LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LL.h"; sourceTree = "<group>"; };
+		6BF3E61720D9118C003701F8 /* ArtButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtButtonCell.h; sourceTree = "<group>"; };
+		6BF3E61820D9118D003701F8 /* ArtButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtButtonCell.m; sourceTree = "<group>"; };
+		6BF3E61A20D91575003701F8 /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
+		6BF3E61B20D91575003701F8 /* ArtButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtButton.h; sourceTree = "<group>"; };
+		6BF3E61C20D91575003701F8 /* ArtButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtButton.m; sourceTree = "<group>"; };
+		6BF3E61D20D91575003701F8 /* UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton.h; sourceTree = "<group>"; };
 		88B540851C91DB8DC970E8E2 /* Pods-DMMacUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacUI/Pods-DMMacUI.debug.xcconfig"; sourceTree = "<group>"; };
 		C5A4A387AC2D8888736F5D8D /* Pods-DMMacUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacUI/Pods-DMMacUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +170,19 @@
 				6B19A18F20D232430029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m */,
 				6B19A19020D232430029EC4C /* RoundWindowFrameView.h */,
 				6B19A19120D232430029EC4C /* RoundWindowFrameView.m */,
+				6BF3E61020D8FA6E003701F8 /* SwizzlingDefine.h */,
+				6BF3E61120D906F2003701F8 /* NSMutableAttributedString+LL.h */,
+				6BF3E61220D906F2003701F8 /* NSMutableAttributedString+LL.m */,
+				6BF3E61420D906F2003701F8 /* NSMutableDictionary+LL.h */,
+				6BF3E61320D906F2003701F8 /* NSMutableDictionary+LL.m */,
+				6BF3E61720D9118C003701F8 /* ArtButtonCell.h */,
+				6BF3E61820D9118D003701F8 /* ArtButtonCell.m */,
+				6BF3E60D20D8F546003701F8 /* NSButton+DM.h */,
+				6BF3E60E20D8F546003701F8 /* NSButton+DM.m */,
+				6BF3E61B20D91575003701F8 /* ArtButton.h */,
+				6BF3E61C20D91575003701F8 /* ArtButton.m */,
+				6BF3E61D20D91575003701F8 /* UIButton.h */,
+				6BF3E61A20D91575003701F8 /* UIButton.m */,
 				6BF18DC220CE0EB900CFDCA0 /* Assets.xcassets */,
 				6BF18DC420CE0EB900CFDCA0 /* Main.storyboard */,
 				6BF18DC720CE0EB900CFDCA0 /* Info.plist */,
@@ -254,20 +286,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B19A19820D234D20029EC4C /* DMNewPopWindowController.m in Sources */,
+				6BF3E60F20D8F546003701F8 /* NSButton+DM.m in Sources */,
 				6B19A19420D232440029EC4C /* RoundWindowFrameView.m in Sources */,
+				6BF3E61E20D91576003701F8 /* UIButton.m in Sources */,
 				6BF18DF020CE66B900CFDCA0 /* DMVerticalCenterSecureTextField.m in Sources */,
 				6BF18DC120CE0EB700CFDCA0 /* ViewController.m in Sources */,
 				6BF18DC920CE0EB900CFDCA0 /* main.m in Sources */,
+				6BF3E61920D9118D003701F8 /* ArtButtonCell.m in Sources */,
 				6B19A1A120D249DE0029EC4C /* DMSubPopWindowController.m in Sources */,
 				6B19A19320D232440029EC4C /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */,
 				6BF18DD220CE0FBD00CFDCA0 /* DMLoginInputView.m in Sources */,
+				6BF3E61620D906F2003701F8 /* NSMutableDictionary+LL.m in Sources */,
 				6BF18DBE20CE0EB700CFDCA0 /* AppDelegate.m in Sources */,
 				6B9EE59F20D105F40070D7C3 /* DMComboBox.m in Sources */,
 				6B19A1A520D24AA50029EC4C /* DMPopWindowController.m in Sources */,
 				6BF18DEF20CE66B900CFDCA0 /* DMVerticalCenterSecureTextFieldCell.m in Sources */,
 				6BF18DE120CE2C3500CFDCA0 /* DMVerticalCenterTextField.m in Sources */,
+				6BF3E61F20D91576003701F8 /* ArtButton.m in Sources */,
 				6BF18DE720CE602F00CFDCA0 /* DMVerticalCenterTextFieldCell.m in Sources */,
 				6B19A19220D232440029EC4C /* BorderlessWindow.m in Sources */,
+				6BF3E61520D906F2003701F8 /* NSMutableAttributedString+LL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

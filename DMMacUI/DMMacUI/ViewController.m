@@ -13,6 +13,10 @@
 #import "DMNewPopWindowController.h"
 #import "DMPopWindowController.h"
 #import "AppDelegate.h"
+#import "NSButton+DM.h"
+#import "ArtButtonCell.h"
+#import "ArtButton.h"
+
 
 @interface ViewController()
 
@@ -25,6 +29,10 @@
 @property (nonatomic, strong) DMPopWindowController *popWindowCtrl;
 
 @property (nonatomic, strong) NSButton *button;
+
+@property (nonatomic, strong) NSButton *enableBtn;
+
+@property (nonatomic, strong) ArtButton *artBtn;
 
 @property (nonatomic, strong) NSWindow *rootWindow;
 @property (nonatomic, strong) id eventMonitor;
@@ -67,19 +75,43 @@
         make.centerY.equalTo(self.view).offset(-60.);
     }];
     
-    [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
+//    [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.equalTo(self.view).offset(50);
+//        make.right.equalTo(self.view).offset(-50);
+//        make.top.equalTo(self.view).offset(10.);
+//        make.height.equalTo(@50.);
+//    }];
+//
+////    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+////        self.inputView.highlighted = YES;
+////    });
+//
+//    self.button.target = self;
+//    self.button.action = @selector(popAction:);
+    
+    
+    [self.enableBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.view).offset(50);
         make.right.equalTo(self.view).offset(-50);
         make.top.equalTo(self.view).offset(10.);
         make.height.equalTo(@50.);
     }];
     
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        self.inputView.highlighted = YES;
-//    });
     
-    self.button.target = self;
-    self.button.action = @selector(popAction:);
+    self.enableBtn.target = self;
+    self.enableBtn.action = @selector(clickAction:);
+
+}
+
+- (void)clickAction:(NSButton *)aBtn
+{
+    if (aBtn.selected) {
+        aBtn.selected = NO;
+    } else {
+        aBtn.selected = YES;
+    }
+    
+//    aBtn.enabled = !aBtn.enabled;
 }
 
 - (void)popAction:(NSButton *)aBtn
@@ -151,6 +183,43 @@
         [self.view addSubview:_button];
     }
     return _button;
+}
+
+- (NSButton *)enableBtn
+{
+    if(!_enableBtn){
+        _enableBtn = [[NSButton alloc] init];
+        _enableBtn.cell = [ArtButtonCell new];
+        _enableBtn.wantsLayer = YES;
+        _enableBtn.bordered = NO;
+        _enableBtn.title = @"pop";
+         [_enableBtn setTitle:@"pop" forState:EArtControlStateNormal];
+        [_enableBtn setTitleColor:[NSColor blackColor] forState:EArtControlStateNormal];
+        //        [_enableBtn setTitleColor:[NSColor redColor] forState:EArtControlStateDisabled];
+        [_enableBtn setBackgroudColor:[NSColor whiteColor] forState:EArtControlStateNormal];
+        [_enableBtn setTitle:@"Hello" forState:EArtControlStateSelected];
+//        [_enableBtn setTitle:@"Hello" forState:EArtControlStateDisabled];
+//        [_enableBtn setTitle:@"Hello" forState:EArtControlStateDisabled];
+        [_enableBtn setTitleColor:[NSColor redColor] forState:EArtControlStateSelected];
+//        [_enableBtn setTitleColor:[NSColor redColor] forState:EArtControlStateDisabled];
+        [_enableBtn setBackgroudColor:[NSColor orangeColor] forState:EArtControlStateSelected];
+        [self.view addSubview:_enableBtn];
+    }
+    return _enableBtn;
+}
+
+- (ArtButton *)artBtn
+{
+    if(!_artBtn){
+        _artBtn = [[ArtButton alloc] init];
+//        _artBtn.cell = [ArtButtonCell new];
+        _artBtn.wantsLayer = YES;
+        _artBtn.bordered = NO;
+        _artBtn.title = @"pop";
+       
+        [self.view addSubview:_artBtn];
+    }
+    return _artBtn;
 }
 
 - (NSWindow *)rootWindow
